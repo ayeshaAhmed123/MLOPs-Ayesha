@@ -1,8 +1,8 @@
 name: Python Application
 on: push
 jobs: 
-      build: 
-          runs-on:ubuntu_latest
+    build: 
+      runs-on:ubuntu_latest
       steps:
       - uses: actions/checkout@v3
       - name: Set up Python 3.10
